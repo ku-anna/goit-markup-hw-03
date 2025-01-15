@@ -71,7 +71,6 @@ header{
     gap: 40px;
     list-style: none;
     align-items: flex-start;
-    padding: 24px 0;
 }
 
 .address-items{
@@ -100,8 +99,9 @@ ul, ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42
-    }
+    color: #2e2f42;
+    padding: 24px 0;
+}
 .link:hover,
 .link:focus{
     color: #404bbf;
