@@ -19,6 +19,9 @@ section {
 a {
 text-decoration: none;
 }
+img {
+    display: block;
+}
 header{
     border-bottom: 1px solid #e7e9fc;
     background-color: #ffffff;
@@ -44,6 +47,7 @@ header{
      display: flex;
      background-color: #ffffff;
      justify-content: space-between;
+     align-items: center;
 }
 .logo {
     display: flex;
@@ -59,23 +63,21 @@ header{
 .nav-pannel{
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 .links-list{
     display: flex;
     gap: 40px;
     list-style: none;
-    margin-top: 24px;
-    margin-bottom: 24px;
     align-items: flex-start;
+    padding: 24px 0;
 }
 
 .address-items{
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 .address{
     color: #434455;
@@ -89,8 +91,7 @@ header{
 span {
     color: #2e2f42;
 }
-ul {
-    display: flex;
+ul, ol {
     list-style-type: none;
 }
 .link{
@@ -203,15 +204,15 @@ ul {
     height: auto;
 }
 .dude {
-    padding: 32px 16px;
-    border-radius: 0 0 4px 4px;
+    padding: 32px 0;
 }
 .li-team{
     background-color: #ffffff;
-width: 264px;
-height: 380px;
-box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-background: #fff;
+    width: 264px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+    border-radius: 0 0 4px 4px;
 }
 .team-name{
     font-weight: 500;
@@ -219,6 +220,7 @@ background: #fff;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .portfolio-container {
     margin: 76px 156px 120px 156px;
@@ -254,7 +256,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 76px;
+    margin-bottom: 72px;
     justify-content: center;
 }
 .portfolio-service{
@@ -263,6 +265,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
     }
 .portfolio-item{
     font-size: 16px;
@@ -288,7 +291,7 @@ img {
     padding: 100px 0;
 }
  .footer-logo{
-    display: flex;
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -296,12 +299,10 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-bottom: 16px;
 }
-.logo-span{
-margin-bottom: 16px;
-}
+
 .footer-span{
-    display: flex;
     color: #f4f4fd;
 }
 .footer-p {
